@@ -1,0 +1,26 @@
+Device Independet Pixels:
+ ukuran realtime browsers
+
+hardware pixels: ukuran hardware
+
+Device Pixel Ratio of 2
+
+viewport width = hardware pixels / device pixel ratio
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+position: relative;
+
+max-width: 100%
+
+tap able elements
+ min-width: 48px;
+ max-width: 48px;
+
+
+prioritize the content from the small devices
+
+https://github.com/google/ios-webkit-debug-proxy
+
+https://www.smashingmagazine.com/2014/09/testing-mobile-emulators-simulators-remote-debugging/
