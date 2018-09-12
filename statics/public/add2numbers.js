@@ -3,7 +3,7 @@
 function kalkulator()
 {
     let angka = document.querySelectorAll('input'); // Memilih semua element 'input'
-    let i1 =  parseInt(angka[0].value); // mengambil value inpu[0]
+    let i1 =  parseInt(angka[0].value); // mengambil value input[0]
     let i2 = parseInt(angka[1].value);  // mengambil value input[1]
     let pesan = document.getElementById('tampil');
     if(!isNaN(i1)&&!isNaN(i2)) {

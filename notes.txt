@@ -16,7 +16,7 @@ max-width: 100%
 
 tap able elements
  min-width: 48px;
- max-width: 48px;
+ min-height: 48px;
 
 
 prioritize the content from the small devices
@@ -24,3 +24,15 @@ prioritize the content from the small devices
 https://github.com/google/ios-webkit-debug-proxy
 
 https://www.smashingmagazine.com/2014/09/testing-mobile-emulators-simulators-remote-debugging/
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index
+
+
+// links external css
+<link rel="stylesheet" media="screen and (min-width: 500px" href="links.css"/>
+
+// internal css
+@media screen and (max-width: 500px) {
+
+
+}
