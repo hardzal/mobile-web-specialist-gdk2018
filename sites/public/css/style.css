@@ -1,0 +1,68 @@
+/* mobile web specialist */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:link {
+    color: #2980B9;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    color: #E74C3C;
+}
+a:active {
+    text-decoration: line-through;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 40px 100px 100px 100px 40px;
+    grid-gap: 3px;
+}
+
+.menu {
+    background-color: #2980b9;
+    grid-column: 1/5;
+    line-height: 40px;
+    padding: 5px 15px;
+
+}
+
+.menu a img {
+    width: 30px;
+}
+
+.sidebar {
+    background-color: #27AE6D;
+    grid-row: 2/5;
+    grid-column: 1/2;
+    overflow: hidden;
+}
+
+.konten {
+    border: 1px solid #E67E22;
+    color: black;
+    padding-left: 10px;
+    background-color: #ECF0F1;
+    grid-column: 2/5;
+}
+
+.footer {
+    color: white;
+    padding: 10px;
+    background-color: #2C3E50;
+    grid-column: 1/5;
+}

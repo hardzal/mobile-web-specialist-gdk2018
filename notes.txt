@@ -50,3 +50,40 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_
 >Column Drop
 >Off Canvas
 
+#Responsive Tables
+>Hidden Columns { display: none; }
+
+>No More Tables
+
+table, thead, tbody, tr, td, th { display: block; }
+thead tr { 
+ position: absolute;
+ top: -99999px;
+ left: -99999px;
+}
+td {
+ position: relative;
+ padding-left: 50%;
+}
+td {
+ positon: relative;
+ padding-left: 50%;
+}
+td:before {
+ position: absolute;
+ left: 6px;
+ content: attr(data-th);
+ font-weight: bold;
+}
+
+>Contained Tables
+
+give the table a div class
+ { 
+  width: 100%;
+  overflow-x: auto;
+ }
+
+
+#Fonts
+ >Ideal Measure: 45 - 90 dpl ~65dpl
