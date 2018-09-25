@@ -9,12 +9,14 @@ body {
 a:link {
     color: #2980B9;
     text-decoration: none;
+    transition: color .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
 }
 a:visited {
     color: black;
 }
 a:hover {
-    text-decoration: underline;
     color: #E74C3C;
 }
 a:active {
@@ -36,20 +38,55 @@ img {
 .menu {
     background-color: #2980b9;
     grid-column: 1/5;
-    line-height: 40px;
-    padding: 5px 15px;
+    overflow: hidden;
+    padding-top: 5px;
+    margin: 0;
+}
 
+.menu li a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 15px;
 }
 
 .menu a img {
     width: 30px;
 }
 
+.menu ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.menu li {
+      display: inline-block;
+}
+
 .sidebar {
-    background-color: #27AE6D;
+    background-color: #2980b9;
     grid-row: 2/5;
     grid-column: 1/2;
     overflow: hidden;
+}
+
+.sidebar img {
+    width: 60%;
+    position: relative;
+    left: 20%;
+    top: 5%;
+    border: 1px solid #fff;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.sidebar img:hover {
+    box-shadow: 0 0 2px 1px rgba(7, 182, 240, 0.5);
+    cursor: pointer;
 }
 
 .konten {
@@ -58,6 +95,12 @@ img {
     padding-left: 10px;
     background-color: #ECF0F1;
     grid-column: 2/5;
+}
+
+.konten h2 {
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
 .footer {
