@@ -19,33 +19,6 @@
         </div>
         <div class='review'>Tulis Review disini</div>
     </div>
-<script>
-    var arrMarker = [
-        [-6.364632, 106.828712],
-        [-6.890608, 107.610992],
-        [-7.767657, 110.376293],
-        [42.360091, -71.094160],
-        [35.712695, 139.761985],
-        [1.348299, 103.683113],
-        [1.296621, 103.776394]
-    ];
-
-    let mymap = L.map('mapid').setView([-6.364632, 106.828712], 12);
-
-    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}',
-    {
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC - BY - SA</a>, Imagery© <a href ="https://www.mapbox.com/"> Mapbox </a>',
-
-    maxZoom: 20,
-
-    id: 'mapbox.streets',
-
-accessToken: 'pk.eyJ1IjoiaGFyZHphbCIsImEiOiJjam1oNzVrYm0xMDljM3Fyc3ZhbWFzbmY2In0.0qPCkp2Jo9bxfiB71vjZ9w'
-    }).addTo(mymap);
-
-     for(mark of arrMarker) {
-         L.marker(mark).addTo(mymap);
-     }
-</script>
+<script src='./js/script.js' type='text/javascript'></script>
 </body>
 </html>
