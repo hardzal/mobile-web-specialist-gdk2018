@@ -40,11 +40,15 @@
 
     id: 'mapbox.streets',
 
-accessToken: 'pk.eyJ1IjoiaGFyZHphbCIsImEiOiJjam1oNzVrYm0xMDljM3Fyc3ZhbWFzbmY2In0.0qPCkp2Jo9bxfiB71vjZ9w'
+    accessToken: 'pk.eyJ1IjoiaGFyZHphbCIsImEiOiJjam1oNzVrYm0xMDljM3Fyc3ZhbWFzbmY2In0.0qPCkp2Jo9bxfiB71vjZ9w'
     }).addTo(mymap);
 
      for(mark of arrMarker) {
          L.marker(mark).addTo(mymap);
+         let popoup = L.popup()
+            .setLangLng(mark)
+            .setContent("Best University")
+            .OpenOn(mymap);
      }
 </script>
 </body>
