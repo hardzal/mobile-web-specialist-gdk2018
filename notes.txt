@@ -7,7 +7,6 @@ Device Pixel Ratio of 2
 
 viewport width = hardware pixels / device pixel ratio
 
-
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 position: relative;
@@ -17,7 +16,6 @@ max-width: 100%
 tap able elements
  min-width: 48px;
  min-height: 48px;
-
 
 prioritize the content from the small devices
 
@@ -84,6 +82,11 @@ give the table a div class
   overflow-x: auto;
  }
 
+CSS Units
+>vh
+>vw
+>vmin
+>vmax
 
 #Fonts
  >Ideal Measure: 45 - 90 dpl ~65dpl
