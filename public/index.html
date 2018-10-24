@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
     <title>Mobile Web Specialist - Google Developer Kejar</title>
-    <meta name="mobile-web-app-capable" content="yes"/>
-    <meta name="theme-color" content="#1f3a93"/>
-    <meta name="application-name" content="MWS Yogyakarta"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="darkblue"/>
-    <meta name="apple-mobile-web-app-title" content="MWS Yogyakarta"/>
+    <meta name='description' content='Latihan Mobile Web Specialist'/>
+    <meta name='application-name' content='MWS Yogyakarta'/>
+    <meta name='mobile-web-app-capable' content='yes'/>
+    <meta name='apple-mobile-web-app-capable' content='yes'/>
+    <meta name='apple-mobile-web-app-status-bar-style' content='darkblue'/>
+    <meta name='apple-mobile-web-app-title' content="MWS Yogyakarta"/>
+    <meta name='theme-color' content="#1f3a93"/>
+    <link rel='apple-touch-icon' href='./images/logo/Icon-192.png'/>
     <link rel='icon' sizes='192x192' href='./images/logo/Icon-192.png'>
-    <link rel="apple-touch-icon" href="./images/logo/Icon-192.png"/>
-    <link href="./css/style.css" rel="stylesheet" type="text/css"/>
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'/>
-    <link rel="manifest" href="./js/manifest.json"/>
+    <link rel='stylesheet' href="./css/style.css" type="text/css"/>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'/>
+    <link rel="manifest" href="./manifest.json"/>
 </head>
 <body>
     <div class='container'>
@@ -63,15 +65,14 @@
             <h3>Muhamad Rizal</h3>
         </div>
     </div>
-    <script type="text/javascript">
+    <script>
         if('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('./js/service-worker.js')
+            navigator.serviceWorker.register('./service-worker.js')
             .then(reg => console.log('Service Worker registered at ', reg.scope))
             .catch(error => console.log('Registration failed: ', error))
         } else {
             console.log('Service-Worker not supported in this browser');
         }
-
     </script>
 </body>
 </html>
