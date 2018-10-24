@@ -5,22 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mobile Web Specialist - Google Developer Kejar</title>
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="theme-color" content="#1f3a93"/>
     <meta name="application-name" content="MWS Yogyakarta"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="darkblue"/>
     <meta name="apple-mobile-web-app-title" content="MWS Yogyakarta"/>
+    <link rel='icon' sizes='192x192' href='./images/logo/Icon-192.png'>
+    <link rel="apple-touch-icon" href="./images/logo/Icon-192.png"/>
     <link href="./css/style.css" rel="stylesheet" type="text/css"/>
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'/>
+    <link rel="manifest" href="./js/manifest.json"/>
 </head>
 <body>
     <div class='container'>
         <div class='menu'>
             <ul>
-                <li><a href='#menu'><img src='images/home140.png' alt='HOME' title='Homepage' /></a></li>
+                <li><a href='#menu'><img src='images/logo/Icon-72.png' alt='HOME' title='Homepage' /></a></li>
+                <li><a href="#">Mobile Web Specialist</a></li>
             </ul>
         </div>
 
         <div class='sidebar'>
-            <img src='images/3x4.jpg' alt='profile' title='profile images' class='profile'>
+            <img src='images/profile.jpg' alt='profile' title='profile images' class='profile'>
         </div>
 
         <div class="main">
@@ -57,5 +63,15 @@
             <h3>Muhamad Rizal</h3>
         </div>
     </div>
+    <script type="text/javascript">
+        if('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./js/service-worker.js')
+            .then(reg => console.log('Service Worker registered at ', reg.scope))
+            .catch(error => console.log('Registration failed: ', error))
+        } else {
+            console.log('Service-Worker not supported in this browser');
+        }
+
+    </script>
 </body>
 </html>
