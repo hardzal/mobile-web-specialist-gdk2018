@@ -45,34 +45,39 @@
                 <h2><a href='project1/add2numbers.html'>Summing two numbers</a></h2>
             </div>
 
-            <div class="konten sc">
-                <h2><a href="#">Responsive Web</a></h2>
+            <div class="konten th">
+                <h2><a href="udacity/grid3.html">Grid Layout</a></h2>
             </div>
 
             <div class='konten sc'>
                 <h2><a href='project2/index.html'>Favorit Place with MapBox</a></h2>
             </div>
 
+            <div class="konten sc">
+                <h2><a href="#">Responsive Web</a></h2>
+            </div>
+
+            <div class='konten fs'>
+                <h2><a href='project3/index.html'>Review Map Favorit Place</a></h2>
+            </div>
+
             <div class="konten th">
                 <h2><a href="#">Offline Web</a></h2>
             </div>
 
-            <div class='konten last'>
-                <h2><em>Thanks for visit</em></h2></small>
+            <div class='konten sc'>
+                <h2><a href='project4/index.html'>Map Fetch JSON</a></h2>
             </div>
+            
+            <div class='konten sc'>
+                <h2>Coming soon</h2>
+            </div>
+            
         </div>
         <div class='footer'>
             <h3>Muhamad Rizal</h3>
         </div>
     </div>
-    <script>
-        if('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('./service-worker.js')
-            .then(reg => console.log('Service Worker registered at ', reg.scope))
-            .catch(error => console.log('Registration failed: ', error))
-        } else {
-            console.log('Service-Worker not supported in this browser');
-        }
-    </script>
+    <script src="js/app.js"></script>
 </body>
 </html>
