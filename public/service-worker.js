@@ -1,7 +1,7 @@
 (function() {
     'use strict';
-    const version = "0.1.2";
-    const staticCacheName = "startmws-${version}";
+    const version = "0.1.4";
+    const staticCacheName = "startmws-" + version;
     self.addEventListener('install', e => {
         e.waitUntil(
             caches.open(staticCacheName).then(cache => {
