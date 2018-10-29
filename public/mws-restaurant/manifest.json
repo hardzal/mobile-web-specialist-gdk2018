@@ -1,0 +1,21 @@
+{
+  "short_name": "RR",
+  "name": "Restaurant Reviews",
+  "description": "Restaurant review application",
+  "icons": [
+    {
+      "src": "img/rr_icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/rr_icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://startmws-izal.firebaseapp.com/index.html",
+  "background_color": "#fdfdfd",
+  "display": "standalone",
+  "theme_color": "#252831"
+}
