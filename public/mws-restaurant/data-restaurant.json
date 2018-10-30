@@ -1,0 +1,251 @@
+[
+    {
+      "name": "El Patio Restaurant",
+      "neighborhood": "Yogyakarta",
+      "photograph": "1",
+      "altText": "Indonesian and Western Cuisine. Good taste and excellent service!",
+      "address": "Hotel Meliã Purosani Yogyakarta, Jl. Mayor Suryotomo No.31, Ngupasan, Yogyakarta City, Special Region of Yogyakarta",
+      "latlng": {
+        "lat": -7.796302,
+        "lng":  110.369425
+      },
+      "cuisine_type": "All type",
+      "operating_hours": {
+        "Monday": "5:30 pm - 11:00 pm",
+        "Tuesday": "5:30 pm - 11:00 pm",
+        "Wednesday": "5:30 pm - 11:00 pm",
+        "Thursday": "5:30 pm - 11:00 pm",
+        "Friday": "5:30 pm - 11:00 pm",
+        "Saturday": "12:00 pm - 4:00 pm, 5:30 pm - 12:00 am",
+        "Sunday": "12:00 pm - 4:00 pm, 5:30 pm - 11:00 pm"
+      },
+      "createdAt": 1504095563444,
+      "updatedAt": "2017-09-14T14:01:27.653Z",
+      "id": 1,
+      "is_favorite": false
+    },
+    {
+      "name": "Gudeg Bu Pudji Kentungan",
+      "neighborhood": "Sleman",
+      "photograph": "2",
+      "altText": "Gudeg Jogja dengan rasa paling pas di lidah",
+      "address": "Jl. Kaliurang No.28, Manggung, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281",
+      "latlng": {
+        "lat": -7.7534034,
+        "lng": 110.3798948
+      },
+      "cuisine_type": "Gudeg",
+      "operating_hours": {
+        "Monday": "5:30 pm - 11:00 pm",
+        "Tuesday": "5:30 pm - 11:00 pm",
+        "Wednesday": "5:30 pm - 11:00 pm",
+        "Thursday": "5:30 pm - 11:00 pm",
+        "Friday": "5:30 pm - 11:00 pm",
+        "Saturday": "5:00 pm - 11:30 pm",
+        "Sunday": "12:00 pm - 3:00 pm, 5:00 pm - 11:00 pm"
+      },
+      "createdAt": 1504095568414,
+      "updatedAt": "2017-09-14T14:05:54.800Z",
+      "is_favorite": false,
+      "id": 2
+    },
+    {
+      "name": "Kedai Es Pak Ndut",
+      "neighborhood": "Depok",
+      "photograph": "3",
+      "altText": "Segar sekali",
+      "address": "Jalan Wahid Hasyim #113, Condongcatur, Kecamatan Depok, Sleman, Dabag, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55283",
+      "latlng": {
+        "lat": -7.7696007,
+        "lng": 110.3999453
+      },
+      "cuisine_type": "Minum",
+      "operating_hours": {
+        "Monday": "11:30 am - 2:00 am",
+        "Tuesday": "11:30 am - 2:00 am",
+        "Wednesday": "11:30 am - 2:00 am",
+        "Thursday": "11:30 am - 2:00 am",
+        "Friday": "11:30 am - 6:00 am",
+        "Saturday": "11:30 am - 6:00 am",
+        "Sunday": "11:30 am - 2:00 am"
+      },
+      "createdAt": 1504095571434,
+      "updatedAt": 1504095571434,
+      "id": 3
+    },
+    {
+      "name": "Sate Kambing & Ayam Pak Jogo",
+      "neighborhood": "Bantul",
+      "photograph": "4",
+      "altText": "Sate Kambing Luar biasa",
+      "address": "Jl. Plumbon, Modalan, Banguntapan, Bantul, Daerah Istimewa Yogyakarta 55198",
+      "latlng": {
+        "lat": -7.8022248,
+        "lng": 110.4022058
+      },
+      "cuisine_type": "Sate",
+      "operating_hours": {
+        "Monday": "8:00 am - 10:30 pm",
+        "Tuesday": "8:00 am - 10:30 pm",
+        "Wednesday": "8:00 am - 10:30 pm",
+        "Thursday": "8:00 am - 2:30 am",
+        "Friday": "8:00 am - Sat",
+        "Saturday": "Open 24 hours",
+        "Sunday": "Sat - 10:30 pm"
+      },
+      "createdAt": 1504095567091,
+      "updatedAt": 1504095567091,
+      "is_favorite": false,
+      "id": 4
+    },
+    {
+      "name": "Resto Ayam Goreng Bu Tini - Lowano",
+      "neighborhood": "Yogyakarta",
+      "photograph": "5",
+      "altText": "Gurih dan meresap",
+      "address": "Jl. Lowanu No.62, Sorosutan, Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55162",
+      "latlng": {
+        "lat": -7.8316763,
+        "lng": 110.3782186
+      },
+      "cuisine_type": "Serba Ayam",
+      "operating_hours": {
+        "Monday": "11:00 am - 12:00 am",
+        "Tuesday": "11:00 am - 12:00 am",
+        "Wednesday": "11:00 am - 12:00 am",
+        "Thursday": "11:00 am - 12:00 am",
+        "Friday": "11:00 am - 12:00 am",
+        "Saturday": "10:00 am - 12:00 am",
+        "Sunday": "10:00 am - 12:00 am"
+      },
+      "createdAt": 1504095567071,
+      "updatedAt": 1504095567071,
+      "is_favorite": false,
+      "id": 5
+    },
+    {
+      "name": "Ayam Geprek Mantap",
+      "neighborhood": "Bantul",
+      "photograph": "6",
+      "altText": "Sedap Sekali",
+      "address": "Jl. Rajawali No.74, Ngebel, Tamantirto, Kasihan, Bantul, Daerah Istimewa Yogyakarta 55183",
+      "latlng": {
+        "lat": -7.8212532,
+        "lng": 110.3226132
+      },
+      "cuisine_type": "Serba Ayam",
+      "operating_hours": {
+        "Monday": "Closed",
+        "Tuesday": "12:00 pm - 10:00 pm",
+        "Wednesday": "12:00 pm - 10:00 pm",
+        "Thursday": "12:00 pm - 10:00 pm",
+        "Friday": "12:00 pm - 11:00 pm",
+        "Saturday": "12:00 pm - 11:00 pm",
+        "Sunday": "12:00 pm - 9:00 pm"
+      },
+      "createdAt": 1504095567071,
+      "updatedAt": 1504095567071,
+      "is_favorite": false,
+      "id": 6
+    },
+    {
+      "name": "Warung Gudeg Bu Suyud",
+      "neighborhood": "Yogyakarta",
+      "photograph": "7",
+      "altText": "Manisnya pas",
+      "address": "Jl. Abu Bakar Ali, Suryatmajan, Danurejan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55213",
+      "latlng": {
+        "lat": -7.7899707,
+        "lng": 110.3653133
+      },
+      "cuisine_type": "Gudeg",
+      "operating_hours": {
+        "Monday": "11:30 am - 10:00 pm",
+        "Tuesday": "Closed",
+        "Wednesday": "11:30 am - 10:00 pm",
+        "Thursday": "11:30 am - 10:00 pm",
+        "Friday": "11:30 am - 10:00 pm",
+        "Saturday": "11:30 am - 10:00 pm",
+        "Sunday": "11:30 am - 10:00 pm"
+      },
+      "createdAt": 1504095567091,
+      "updatedAt": 1504095567091,
+      "is_favorite": false,
+      "id": 7
+    },
+    {
+      "name": "Mie Kriting Jakarta",
+      "neighborhood": "Sleman",
+      "photograph": "8",
+      "altText": "Mienya sedap sekali",
+      "address": "Jalan Magelang KM.4 No.52C, Rogoyudan, Sinduadi, Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55284",
+      "latlng": {
+        "lat": -7.7683371,
+        "lng": 110.3553042
+      },
+      "cuisine_type": "Mie",
+      "operating_hours": {
+        "Monday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+        "Tuesday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+        "Wednesday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+        "Thursday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+        "Friday": "11:30 am - 3:00 pm, 5:30 pm - 11:30 pm",
+        "Saturday": "10:00 am - 3:00 pm, 5:30 pm - 11:30 pm",
+        "Sunday": "10:00 am - 3:00 pm, 5:30 pm - 11:00 pm"
+      },
+      "createdAt": 1504095567091,
+      "updatedAt": 1504095567091,
+      "is_favorite": false,
+      "id": 8
+    },
+    {
+      "name": "Yamie Lampion",
+      "neighborhood": "Sleman",
+      "photograph": "9",
+      "altText": "Porsi pas",
+      "address": "Jalan Colombo No.2 A, Caturtunggal, Depok, Sleman, Samirono, Caturtunggal, Kec. Depok, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55281",
+      "latlng": {
+        "lat": -7.7778716,
+        "lng": 110.3848304
+      },
+      "cuisine_type": "Mie",
+      "operating_hours": {
+        "Monday": "5:00 pm - 10:00 pm",
+        "Tuesday": "5:00 pm - 10:00 pm",
+        "Wednesday": "5:00 pm - 10:00 pm",
+        "Thursday": "5:00 pm - 10:00 pm",
+        "Friday": "5:00 pm - 11:00 pm",
+        "Saturday": "5:00 pm - 11:00 pm",
+        "Sunday": "5:00 pm - 10:00 pm"
+      },
+      "createdAt": 1504095567191,
+      "updatedAt": 1504095567191,
+      "is_favorite": false,
+      "id": 9
+    },
+    {
+      "name": "Es Oyen",
+      "neighborhood": "Sleman",
+      "photograph": "10",
+      "altText": "Es Segar",
+      "address": "jl godean km 6,5 rt10, Cokro Gedok, Sidoarum, Godean, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55264",
+      "latlng": {
+        "lat": -7.7779345,
+        "lng": 110.3271845
+      },
+      "cuisine_type": "Minum",
+      "operating_hours": {
+        "Monday": "5:00 pm - 12:00 am",
+        "Tuesday": "5:00 pm - 12:00 am",
+        "Wednesday": "5:00 pm - 12:00 am",
+        "Thursday": "5:00 pm - 12:00 am",
+        "Friday": "5:00 pm - 12:00 am",
+        "Saturday": "11:00 am - 12:00 am",
+        "Sunday": "11:00 am - 12:00 am"
+      },
+      "createdAt": 1504095567183,
+      "updatedAt": 1504095567183,
+      "is_favorite": false,
+      "id": 10
+    }
+  ]
